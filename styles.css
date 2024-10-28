@@ -28,6 +28,7 @@ header {
 
 h1 {
     font-size: 40px;
+    margin-right: 50px;
 }
 
 p {
@@ -60,8 +61,4 @@ p {
     color:rgb(255, 255, 255);
     margin-top: -10px;
     margin-bottom: 30px;
-}
-
-h1 {
-    margin-right: 50px;
 }
