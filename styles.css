@@ -1,25 +1,27 @@
 body {
-    color: burlywood;
-    background: black;
+    color: rgb(0, 0, 0);
+    background: rgb(231, 194, 139);
     margin: 0px;
     font-family: "Roboto Mono", serif;
     margin-bottom: 100px;
-
 }
 
 header {
-    border-bottom: solid 6px rgb(42,122,122);
+    border-bottom: solid 4px rgb(0, 0, 0);
     padding: 20px;
     font-size: 38px;
-    color: rgb(255,255,255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
 }
 
 .chamada {
-    background: rgb(129,129,129,1);
+    background: rgb(250, 232, 183);
     padding-bottom: 50px;
     padding-top: 50px;
     display: flex;
     justify-content: center;
+    border-bottom: solid 4px black;
 }
 
 .chamada-texto {
@@ -31,11 +33,25 @@ h1 {
     margin-right: 50px;
 }
 
+h2 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: chocolate;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: chocolate;
+}
+
 p {
     font-size: 20px;
 }
 
-.categoria-videos {
+.gamemaker {
     display: flex;
     overflow-x: auto;
     gap: 20px;
@@ -47,18 +63,27 @@ p {
     margin-top: 50px;
 }
 
-.categoria-videos img {
-    opacity: 0.5;
+.gamemaker img {
     height: 200px;
 }
 
-.categoria-videos img:hover {
-    opacity: 1.0;
-    border: 4px solid rgb(255, 255, 255);
+.borda {
+    margin-left: 40px;
+    border: solid 3px white;
 }
 
-.categoria h2{
-    color:rgb(255, 255, 255);
-    margin-top: -10px;
-    margin-bottom: 30px;
+.java {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.java-script {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.java-script img {
+    height: 200;
 }
